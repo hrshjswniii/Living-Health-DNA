@@ -1,73 +1,126 @@
-# Welcome to your Lovable project
+🧬 Living Health DNA (LHD)
+Your Health. Not Records. A Living DNA.
 
-## Project info
+Living Health DNA (LHD) is a **patient-owned, AI-powered healthcare platform** that transforms fragmented medical records into a **lifelong, evolving health timeline**.  
+Instead of reacting to illness, LHD focuses on **predicting health risks early** while ensuring **privacy, ownership, and consent-first data access**.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
 
-## How can I edit this code?
+🚀 Vision
 
-There are several ways of editing your application.
+By 2050, people won’t frequently *visit hospitals*.  
+Hospitals will **request access to your health timeline** — temporarily, securely, and only with your permission.
 
-**Use Lovable**
+Living Health DNA shifts healthcare:
+- From **static reports → living timelines**
+- From **diagnosis → prediction**
+- From **institution-owned data → patient-owned health intelligence**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
 
-Changes made via Lovable will be committed automatically to this repo.
 
-**Use your preferred IDE**
+🧠 Core Features
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+🔹 Living Health Timeline
+- Continuous health data evolution over time  
+- Combines wearables, reports, and lab results  
+- Designed for long-term trend analysis, not snapshots  
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+🔹 AI Health Intelligence
+- Builds a personalized health baseline  
+- Detects deviations and early risk patterns  
+- Generates predictive insights years before symptoms appear  
 
-Follow these steps:
+🔹 Patient-Owned Data Control
+- Granular, permission-based data sharing  
+- Time-bound access for doctors and specialists  
+- Full revocation available at any moment  
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+🔹 Privacy-First Architecture
+- Encrypted data storage  
+- No permanent data sharing  
+- Doctors see **approved insights only**, not raw data  
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+🧩 System Workflow (High Level)
+
+1. Patient signs up and connects health sources  
+2. Health data is securely ingested and encrypted  
+3. AI builds a living health baseline and monitors trends  
+4. Predictive insights are generated  
+5. Patient grants temporary access when required  
+6. Doctor views approved insights  
+7. Access automatically expires or can be revoked  
+
+
+
+🛠️ Technology Stack
+
+### Frontend
+- React (Web Dashboard)
+- Flutter / React Native (Mobile – planned)
+
+### Backend
+- Node.js
+- Express.js
+- Secure REST APIs
+
+### AI & Intelligence
+- Gemini API
+- Time-series health trend analysis
+- Predictive risk modeling
+
+### Authentication & Security
+- Firebase Authentication
+- JWT-based session handling
+- Role-based access control
+
+### Web3 (Conceptual Layer)
+- Smart contracts for consent management
+- Time-bound permission NFTs
+- On-chain access logs (no raw data stored on-chain)
+
+
+
+🖥️ Prototype Scope
+
+⚠️ **Important Note**  
+This project is currently a **conceptual prototype** built for a hackathon.
+
+- The frontend demonstrates the user experience and workflow  
+- AI and Web3 layers are represented at a conceptual level  
+- Designed for scalability and future real-world integration  
+
+
+▶️ Run Living Health DNA Locally
+
+Follow these steps to run the Living Health DNA prototype on your local machine.
+
+## 1️⃣ Prerequisites
+Ensure the following are installed:
+- Node.js (v16 or above)
+- npm or yarn
+- Git
+
+
+## 2️⃣ Clone the Repository
+```bash
+git clone https://github.com/your-username/living-health-dna.git
+cd living-health-dna
+````
+
+## 3️⃣ Install dependencies
+```
+npm install
+```
+
+
+## 4️⃣ Start project
+```
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## ⚠️ Disclaimer
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+This project is a **conceptual prototype** created for hackathon and research purposes.
+It is **not intended for medical use**.
 
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
